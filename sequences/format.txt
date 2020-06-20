@@ -1,0 +1,7 @@
+seq num
+seq len
+valid str num	(num of different valid selection choice
+valid str len (pts used)
+sequences (seq_num x seq_len)
+valid_strs (valid_str_num x valid_str_len) 
+				(positions correspond with aggs, values correspond with individual sequences)
