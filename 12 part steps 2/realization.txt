@@ -36,6 +36,6 @@ would be realized as:
    0         3
     2          1
 
-Rhythmically, each pc is equivalent to a duration. 0 is length 1, 1 is length 2, etc
+Rhythmically, the duration of each note is determined by a simple mapping of pc's to durations: 0 is length 1, 1 is length 2, etc
 
 That's it!
