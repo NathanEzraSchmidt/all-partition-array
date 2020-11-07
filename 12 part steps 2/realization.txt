@@ -1,0 +1,41 @@
+machine music 1 is composed of a concatenation of the 12 all partition arrays in this folder
+Each lyne pair is realized in the same register, with the top pair being the highest register
+
+The order of the notes within each aggregate is determined using the following, very straightforward procedure:
+
+Start with the top row, if it contains at least one note, play the first of those and delete it.
+Go to next lowest row, if it contains at least one note, play the first of those and delete it.
+Keep doing this.
+After the last row, go back to the first row and repeat.
+After all notes of the aggregate have been deleted, go to the next aggregate and use the same procedure.
+
+The arrays are designed such that with this realization, aggregates within lyne pairs are formed
+
+Example:
+the aggregate:
+54
+
+
+
+98BA
+
+
+76
+03
+21
+
+would be realized as:
+5	4
+
+
+
+ 9        8	  BA
+
+
+  7	    6
+   0         3
+    2          1
+
+Rhythmically, each pc is equivalent to a duration. 0 is length 1, 1 is length 2, etc
+
+That's it!
