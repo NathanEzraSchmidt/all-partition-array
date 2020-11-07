@@ -12,7 +12,7 @@ After all notes of the aggregate have been deleted, go to the next aggregate and
 The arrays are designed such that with this realization, aggregates within lyne pairs are formed
 
 Example:
-the aggregate:
+the aggregate
 54
 
 
@@ -24,7 +24,7 @@ the aggregate:
 03
 21
 
-would be realized as:
+would be realized as
 5	4
 
 
